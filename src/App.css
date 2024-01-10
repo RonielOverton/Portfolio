@@ -1,0 +1,141 @@
+*{
+  margin: auto;
+}
+.about-container {
+  height: 500px;
+  /* background-color: #9b2525; */
+  padding: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+}
+.about-container .about {
+  width: 50%;
+  color: #3c3c3c;
+  text-shadow: 0 0 1px black;
+  -webkit-text-stroke-width: 0.5px; 
+  -webkit-text-stroke-color: black; 
+  text-align: center; 
+  padding: 100px;
+  font-size: 30px;
+  height: 490px;
+  width: auto;
+  font-weight: 600;
+  margin-top: 7%;
+}
+
+body {
+  background-color: #087e8b;
+  ;
+  display: block;
+  width: 100vw;
+}
+
+h1 {
+  color: #3c3c3c;
+  /* text-shadow: 0 0 1px black; */
+  -webkit-text-stroke-width: 0.5px; 
+  -webkit-text-stroke-color: black; 
+  text-align: center; 
+  padding: 20px;
+  font-size: 40px;
+  height: 90px;
+  width: auto;
+} 
+
+h2 {
+  color: #3c3c3c;
+  /* text-shadow: 0 0 1px black; */
+  -webkit-text-stroke-width: 0.5px; 
+  -webkit-text-stroke-color: black; 
+  text-align: center; 
+  padding: 20px;
+  font-size: 40px;
+  height: 90px;
+  width: auto;
+} 
+h3 {
+  color: #3c3c3c;
+  /* text-shadow: 0 0 1px black; */
+  -webkit-text-stroke-width: 0.5px; 
+  -webkit-text-stroke-color: black; 
+  text-align: center; 
+  padding: 20px;
+  font-size: 50px;
+  height: 90px;
+  width: auto;
+}
+h3:hover{
+  color: #e5800cdb;
+} 
+.web-dev {
+  margin-top: -15%;
+}
+.projects {
+  /* background-color: #087e8b; */
+  color: #3c3c3c;
+  text-shadow: 0 0 1px black;
+  text-align: center; 
+  padding: 100px;
+  font-size: 30px;
+  height: 490px;
+  width: auto;
+  font-weight: 600; 
+}
+
+
+.photo {
+    width: 220px;
+    height: 220px;
+    background-color: black;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    overflow: hidden;
+    border: solid 10px #3c3c3c;
+    margin-left: 2%;
+}
+
+.photo img {
+  
+width: 110%;
+position: absolute;
+top: -35px;
+left: 0px;
+}
+
+.photo2 img{
+  width: 520px;
+  height: 320px;
+  margin-left: 30%;
+  margin-bottom: 0%;
+  border: solid 7px #222222;
+
+}
+
+.photo2-container {
+
+padding: 7%;
+}
+.photo3 {
+
+  width: 420px;
+  height: 220px;
+  position: absolute;
+  margin-top: -4%;
+  border: solid 7px #222222;
+}
+
+.photo3-container {
+  position: absolute;
+  margin-top: -4%;
+  margin-right: 30%;
+}
+
+.mpc60-two {
+  position: absolute;
+  opacity: 40%;
+}
+
+

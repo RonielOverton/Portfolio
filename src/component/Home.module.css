@@ -1,0 +1,44 @@
+.container {
+  letter-spacing: -95px;
+  /* margin: auto; */
+  padding: 9%;
+  display: flex;
+  /* justify-content: center; */
+}
+.container2 {
+  /* position: relative; */
+  /* margin: auto; */
+  padding: 7%;
+  display: flex;
+  /* justify-content: center; */
+}
+.container3 {
+  position: relative;
+  margin: auto;
+  padding: 7%;
+  display: flex;
+  justify-content: center;
+}
+
+.wiggle:hover {
+  color: #e5800cdb;
+  animation: wiggle 0.5s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(6deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
